@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+
+.profile-image {
+    width: 20%;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+h2 {
+    letter-spacing: 3px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px grey;
+    position: sticky;
+    text-align: center;
+}
+
+.main-heading {
+    color: #001264;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 2px grey;
+}
+
+main,
+.contact {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    box-shadow: 0px 18px 36px -18px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/student-bio/img/subtle-prism.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.paragraphs {
+    margin-right: 50px;
+}
+
+.name {
+    text-shadow: 1px 1px 2px grey;
+}
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 18px 36px -18px;
+    height: 375px;
+    width: 375px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons {
+    width: 350px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
