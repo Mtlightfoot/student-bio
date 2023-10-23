@@ -52,7 +52,7 @@ main,
 body {
     display: flex;
     flex-direction: column;
-    background-image: url(/student-bio/img/subtle-prism.svg);
+    background-image: url(img/subtle-prism.svg);
     background-size: cover;
     background-position: center;
     height: 100%;
